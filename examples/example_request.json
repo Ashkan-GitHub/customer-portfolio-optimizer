@@ -1,0 +1,37 @@
+{
+  "customer": {
+    "customer_id": "CUST-1001",
+    "age": 38,
+    "annual_income": 145000,
+    "investable_assets": 320000,
+    "investment_horizon_years": 18,
+    "risk_tolerance": 7,
+    "liquidity_needs": "medium",
+    "objectives": ["growth", "retirement"]
+  },
+  "market_data": {
+    "assets": [
+      {"asset_id": "us_eq", "name": "US Equity", "asset_class": "equity"},
+      {"asset_id": "intl_eq", "name": "International Equity", "asset_class": "equity"},
+      {"asset_id": "us_bond", "name": "US Bonds", "asset_class": "fixed_income"},
+      {"asset_id": "gl_bond", "name": "Global Bonds", "asset_class": "fixed_income"},
+      {"asset_id": "real", "name": "Real Assets", "asset_class": "alternatives"}
+    ],
+    "expected_returns": [0.085, 0.078, 0.038, 0.033, 0.06],
+    "covariance_matrix": [
+      [0.0324, 0.02952, 0.002268, 0.001728, 0.00972],
+      [0.02952, 0.04, 0.0021, 0.0016, 0.0096],
+      [0.002268, 0.0021, 0.0049, 0.0042, 0.00168],
+      [0.001728, 0.0016, 0.0042, 0.0064, 0.001728],
+      [0.00972, 0.0096, 0.00168, 0.001728, 0.0144]
+    ],
+    "correlation_matrix": [
+      [1.0, 0.82, 0.18, 0.12, 0.45],
+      [0.82, 1.0, 0.15, 0.1, 0.4],
+      [0.18, 0.15, 1.0, 0.75, 0.2],
+      [0.12, 0.1, 0.75, 1.0, 0.18],
+      [0.45, 0.4, 0.2, 0.18, 1.0]
+    ]
+  },
+  "max_asset_weight": 0.5
+}
