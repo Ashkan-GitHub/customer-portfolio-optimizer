@@ -1,6 +1,6 @@
 # Customer Portfolio Optimizer
 
-A GitHub-ready Python project that demonstrates a customer-aware portfolio optimization engine built for practical analytics, backend API delivery, testing, and interview discussion.
+A customer-aware portfolio optimization engine built for practical analytics, backend API delivery, and testing.
 
 ## Project Overview
 
