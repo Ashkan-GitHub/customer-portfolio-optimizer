@@ -211,20 +211,8 @@ This project produces a verifiable GitHub structure that demonstrates:
 - deterministic testing
 - communication of model outputs to non-technical users
 
-It is useful as a portfolio artifact for analytics, data science, machine learning platform, quantitative product, or backend engineering interviews.
 
-## Interview Talking Points
 
-- Why customer-aware optimization is more useful than pure return maximization
-- How to encode business policy as mathematical constraints
-- Why deterministic synthetic data is valuable for testing and demos
-- Tradeoffs between mean-variance simplicity and production realism
-- Why fallback optimization paths improve robustness
-- How Pydantic validation prevents malformed requests from reaching core logic
-- How to separate schemas, policy mapping, optimization, explanation, and delivery layers
-- How this design could evolve toward transaction costs, tax lots, rebalancing bands, or scenario stress testing
-- Why this repository is intentionally GitHub-ready and interview-friendly
-- How to explain optimizer outputs to product managers, compliance teams, and customers
 
 ## Key Files
 
@@ -234,11 +222,4 @@ It is useful as a portfolio artifact for analytics, data science, machine learni
 - `src/portfolio_optimizer/api.py`
 - `tests/test_optimizer.py`
 
-## Download Links
 
-When generated in the target environment, these files are available at:
-- `/mnt/data/customer-portfolio-optimizer.zip`
-- `/mnt/data/customer-portfolio-optimizer/README.md`
-- `/mnt/data/customer-portfolio-optimizer/src/portfolio_optimizer/optimizer.py`
-- `/mnt/data/customer-portfolio-optimizer/src/portfolio_optimizer/api.py`
-- `/mnt/data/customer-portfolio-optimizer/tests/test_optimizer.py`
