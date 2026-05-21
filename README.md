@@ -4,7 +4,7 @@ A customer-aware portfolio optimization engine built for practical analytics, ba
 
 ## Project Overview
 
-This project builds a deterministic portfolio optimization service that converts customer attributes, preferences, and market inputs into a suggested asset allocation. It is designed to be compact, testable, and easy to present in a GitHub portfolio or technical interview.
+This project builds a deterministic portfolio optimization service that converts customer attributes, preferences, and market inputs into a suggested asset allocation.
 
 The implementation focuses on:
 - structured domain schemas with validation
